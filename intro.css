@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #052115;
+    width: 100%;
+    float: left;
+}
+
+/* Start Logo & Intriduction */
+
+.banner{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.banner img{
+    width: 100%;
+    text-align: center;
+}
+
+/* End Logo & Intriduction */
+
+/* Start menu */
+
+.menu {
+    width: 95%;
+	margin: auto;
+}
+ 
+nav {
+	margin-top: 5px;
+    margin-bottom: 0;
+	background-color: #00381D;
+}
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+    border: 1.5px solid green;
+    border-radius: 5px;
+	}	
+nav ul li {
+	display:inline-block;
+	background-color: #00381D;
+	}
+nav ul .margine{
+    margin-left: 10px;
+}
+nav a {
+	display:block;
+	padding:5px 5px;	
+	color:#FFF;
+	font-size:15px;
+	line-height: 40px;
+	text-decoration:none;
+}
+nav a:hover { 
+	background-color:#052115; 
+    text-shadow: 5px 4px 2px black;
+}
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 50px; 	
+}	
+nav ul li:hover > ul {
+	display:inherit;
+}	
+nav ul ul li {
+	width:150px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+nav ul ul ul li {
+	position: relative;
+	top:-70px; 
+	left:230px;
+}
+nav ul ul li {
+	border-bottom: 1px dotted white;
+}	
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+nav ul ul li:last-child{
+    border-bottom: none;
+}
+nav ul .hide{
+    display: none;
+}
+
+/* End menu */
+
+/* Start Mid */
+.mid{
+    background: #ECEFF6;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-left{
+    width: 59%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-right{
+    width: 39%;
+    overflow: hidden;
+    float: right;
+}
+
+ /* Start Latest News */
+.mid .news{
+    width: 95%;
+    margin: auto; 
+}
+.mid .news .label{
+    width: 30%;
+    float: left;
+    padding: 16.5px;
+    color: white;
+    background: #052115;
+     margin-top:8px;
+    border: 2px solid #052115;
+    text-align: center;
+}
+.mid .news .marqu{
+    width: 70%;
+    float: left;
+     padding: 15px;
+    padding-bottom: 11px;
+     border: 2px solid #052115;
+    margin-top:8px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: red;
+}
+.mid .news .marqu:hover{
+    color: green;
+}
+ /* End Latest News */
+
+/* Start Left Slide Show */
+
+.mid .left{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 90%;
+/*  height: 320px;   */
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.mid .left:hover{
+    border: 1px dashed #00381D;
+}
+.mid .left img{
+    margin-top: 5px;
+    width: 96%;
+/*  height: 310px;   */
+    margin-bottom: 5px;
+}
+
+/* End Left Slide Show */
+
+/* Star Mid Left School Introduction */
+
+.mid .left-1{
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 90%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.mid .left-1:hover{
+    border: 1px dashed #00381D;
+}
+.mid .left-1 h2{
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .left-1 p{
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* End Mid Left School Introduction */
+
+/* Start Mid Left Achievements */
+
+.mid .left-2{
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 90%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.mid .left-2 .mid-left-2{
+    width: 100%;
+    background: #ECEFF6;
+    margin: auto;
+    float: left;
+     overflow: hidden;
+}
+.mid .left-2 .Achievements{
+    width: 48%;
+    float: left;
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.mid .left-2 .Achievements:hover{
+    border: 1px dashed black;
+}
+.mid .left-2 .Achievements h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .left-2 .Achievements .link{
+    width: 95%;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #052115;
+    margin: auto;
+    margin-top: 5px;
+}
+.mid .left-2 .Achievements .link:hover{
+    border-bottom: 2px dashed red;
+    background: green;
+}
+.mid .left-2 .Achievements .link a{
+    text-decoration: none;
+    color: black;   
+}
+.mid .left-2 .Achievements .link p{
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.mid .left-2 .Achievements .link p:hover{
+    color: white;;
+}
+.mid .left-2 .Achievements .fa{
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 20px;
+    padding-bottom: 10%; 
+}
+.mid .left-2 .Achievements .fa:hover{
+    color: white;
+    text-shadow: 4px 3px 2px black;  
+}
+
+/* End Mid Left Achievements */
+
+/* Start Mid Left Events */
+
+.mid .left-2 .Events{
+    width: 48%;
+    float: right;
+    background: white;
+   border: 1px solid black;
+    border-radius: 3px;
+}
+.mid .left-2 .Events:hover{
+    border: 1px dashed black;
+}
+.mid .left-2 .Events h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .left-2 .Events .link{
+    width: 95%;
+    overflow: hidden;
+    border-bottom: 1px solid #052115;
+    margin: auto;
+    margin-top: 5px;
+}
+.mid .left-2 .Events .link:hover{
+    border-bottom: 2px dashed red;
+    background: green;
+}
+.mid .left-2 .Events .link a{
+    text-decoration: none;
+    color: black;   
+}
+.mid .left-2 .Events .link p{
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.mid .left-2 .Events .link p:hover{
+    color: white;
+   
+}
+.mid .left-2 .Events .fa{
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 20px;
+    padding-bottom: 10%; 
+}
+.mid .left-2 .Events .fa:hover{
+    color: white;
+    text-shadow: 4px 3px 2px black;  
+}
+
+/* End Mid Left Events */
+
+/* Start Mid Left Video */
+
+.mid .left-3{
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 90%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.mid .left-3:hover{
+    border: 1px dashed #00381D;
+}
+.mid .left-3 iframe{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* End Mid Left Video */
+
+/* Start Mid Right Chairman Message */
+
+.mid .right{
+    margin-right: 15%;
+    margin-top: 10px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.mid .right:hover{
+     border: 1px dashed black;
+}
+.mid .right h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .right .picture{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+}
+.mid .right .picture img{
+    width: 100%;
+}
+.mid .right .link{
+    width: 78%;
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    padding: 5px;
+}
+.mid .right .link a{
+    text-decoration: none;
+     font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 3px;
+}
+.mid .right .link .link-1{
+    font-family: italic;
+    color:blue;
+}
+.mid .right .link .link-1:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+/* End Mid Right Chairman Message */
+
+/* Start Mid Right principle Message */
+
+.mid .right-1{
+    margin-right: 15%;
+    margin-top: 15px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.mid .right-1:hover{
+     border: 1px dashed black;
+}
+.mid .right-1 h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .right-1 .picture{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.mid .right-1 .picture img{
+    padding: 5px;
+    width: 100%;
+}
+.mid .right-1 .link{
+    width: 78%;
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    padding: 5px;
+}
+.mid .right-1 .link a{
+    text-decoration: none;
+     font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 3px;
+}
+.mid .right-1 .link .link-1{
+    font-family: italic;
+    color:blue;
+}
+.mid .right-1 .link .link-1:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+/* End Mid Right principle Message */
+
+/* Start Mid Right  why you study */
+
+.mid .right-2{
+    margin-right: 15%;
+    margin-top: 15px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.mid .right-2:hover{
+     border: 1px dashed black;
+}
+.mid .right-2 h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .right-2 .picture{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.mid .right-2 .picture img{
+    padding: 5px;
+    width: 100%;
+}
+.mid .right-2 .link{
+    width: 78%;
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    padding: 5px;
+}
+.mid .right-2 .link a{
+    text-decoration: none;
+     font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 3px;
+}
+.mid .right-2 .link .link-1{
+    font-family: italic;
+    color:blue;
+}
+.mid .right-2 .link .link-1:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+/* End Mid Right  why you study */

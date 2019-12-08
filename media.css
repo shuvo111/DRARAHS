@@ -1,0 +1,118 @@
+@media screen and (max-width:920px){
+    
+    /* Header Menu */
+    
+    nav ul .hide{
+        display: block;
+    }
+    nav ul .margine{
+        display: none;
+    }  
+    
+    .mid .mid-right{
+        display: none;
+    }
+    .mid .mid-left{
+        width: 98%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:600px){
+   .mid .news .label{
+    width: 35%;
+  }
+    .mid .news .marqu{
+    width: 65%;
+  }
+}
+
+
+@media screen and (min-width:585px) and (max-width:920px){
+    
+     /* Mid Left Slide Show */
+    
+    .mid .left{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 370px;
+    }
+    .mid .left img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 92%;
+        height: 350px;
+    }
+    
+    /* Mid Left School Introduction */
+    
+     .mid .left-1{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 30px;
+    }
+    
+    /* Mid Left Achivements & Events */
+    
+     .mid .left-2{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 30px;
+    }
+    
+    /* Mid Left Video */
+    
+     .mid .left-3{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width:586px){
+    
+      /* Mid Left Slide Show */
+    
+    .mid .left{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+        height: 330px;
+    }
+    .mid .left img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 95%;
+        height: 310px;
+    }
+    
+     /* Mid Left School Introduction */
+    
+     .mid .left-1{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+         padding: 30px;
+    }
+     /* Mid Left Achivements & Events */
+     .mid .left-2{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+         padding: 30px;
+    }
+    
+     /* Mid Left Video */
+     .mid .left-3{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+        padding: 0;
+    }
+}
+
