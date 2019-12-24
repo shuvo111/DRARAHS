@@ -27,6 +27,15 @@
   }
 }
 
+@media screen and (max-width:500px){
+   .mid .news .label{
+    width: 50%;
+  }
+    .mid .news .marqu{
+    width: 50%;
+  }
+}
+
 
 @media screen and (min-width:585px) and (max-width:920px){
     

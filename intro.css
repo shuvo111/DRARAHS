@@ -103,6 +103,7 @@ nav ul .hide{
     width: 100%;
     overflow: hidden;
     float: left;
+    padding-bottom: 25px;
 }
 .mid .mid-left{
     width: 59%;
@@ -118,28 +119,26 @@ nav ul .hide{
  /* Start Latest News */
 .mid .news{
     width: 95%;
-    margin: auto; 
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 .mid .news .label{
     width: 30%;
     float: left;
-    padding: 16.5px;
     color: white;
     background: #052115;
-     margin-top:8px;
     border: 2px solid #052115;
     text-align: center;
 }
 .mid .news .marqu{
     width: 70%;
     float: left;
-     padding: 15px;
-    padding-bottom: 11px;
-     border: 2px solid #052115;
-    margin-top:8px;
+    height: 22.5px;
+    border: 2px solid #052115;
     font-size: 18px;
     text-transform: capitalize;
-    color: red;
+    color: black;
 }
 .mid .news .marqu:hover{
     color: green;
@@ -152,7 +151,6 @@ nav ul .hide{
     margin-left: 10%;
     margin-top: 10px;
     width: 90%;
-/*  height: 320px;   */
     float: left;
     background: white;
     text-align: center;
@@ -165,7 +163,6 @@ nav ul .hide{
 .mid .left img{
     margin-top: 5px;
     width: 96%;
-/*  height: 310px;   */
     margin-bottom: 5px;
 }
 
@@ -531,3 +528,135 @@ nav ul .hide{
     text-decoration:underline;
 }
 /* End Mid Right  why you study */
+
+/* Srat  mid Right Facebook page */
+
+
+.mid .right-3{
+    margin-right: 15%;
+    margin-top: 15px;
+    width: 85%;
+    float: left;
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+}
+.mid .right-3 iframe{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.mid .right-3:hover{
+    border: 1px dashed black; 
+}
+
+/* End  mid Right Facebook page */
+
+/* End Mid */
+
+/* Start Footer */
+footer{
+    background: #052115;
+    width: 100%;
+    padding-bottom: 30px;
+    overflow: hidden; 
+}
+footer:hover{
+    border: 2px solid aqua;
+}
+footer .quick-links{
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+}
+footer .quick-links h2{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+footer .quick-links a{
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+}
+footer .quick-links a:hover{
+    text-decoration: underline;
+}
+footer .quick-links a .fa{
+    padding: 3px;
+    padding-right: 5px;
+}
+footer .our-address{
+    margin-right: 5%;
+    float: right;
+    width: 40%;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+}
+footer .our-address h2{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+footer .our-address p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+    line-height: 2;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+footer .developer{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 35px;
+    border-top: 2px solid white;
+    text-align: center;
+}
+footer .developer p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+footer .developer p a{
+    text-decoration: none;
+     font-family: sans-serif;
+    font-size: 15px;
+    color: chocolate;
+}
+footer .developer p a:hover{
+    text-decoration: underline;
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+

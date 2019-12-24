@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+        <link rel="stylesheet" href="intro.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Daksi Raipur A.R.A. High School</title>
+    </head>
+    <body>
+       <header class="header">
+           <div class="container">
+               <div class="logo">
+                  <div class="logo-1">
+                   <img src="logo.png">
+               </div>
+               </div>
+               <div class="introduction">
+                   <label class="label1">Daksin Raipur Abdur Rahman Adarsh High School</label>
+                   <label class="label2">Education | Discipline | Character</label>
+                   <label class="label3">School Code (Board) : 1250 | EIIN : 107843</label>
+               </div>
+           </div>
+       </header
+    </body>
+</html>
