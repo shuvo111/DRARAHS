@@ -10,7 +10,10 @@
     }  
     
     .mid .mid-right{
-        display: none;
+        float: left;
+        margin-left: 10%;
+        width: 90%;
+        margin-right: 10%;
     }
     .mid .mid-left{
         width: 98%;
@@ -25,6 +28,22 @@
     .mid .news .marqu{
     width: 65%;
   }
+}
+
+.mid .mid-left .mid-discription{
+     margin-left: 5%;
+}
+
+.mid .mid-left .mid-history{
+    margin-left: 5%;
+}
+
+.mid .mid-left .mid-why-study-at-ara{
+    margin-left: 5%;
+}
+
+.mid .mid-left .mid-infrastructure{
+    margin-left: 5%;
 }
 
 @media screen and (max-width:500px){

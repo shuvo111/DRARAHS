@@ -1,0 +1,317 @@
+.mid{
+    background: #ECEFF6;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-left{
+    width: 69%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-right{
+    width: 29%;
+    overflow: hidden;
+    float: right;
+}
+
+/* Start Discription */
+
+.mid .mid-left .mid-infrastructure{
+   margin-left: 10%;
+    margin-top: 25px;
+    width: 95%;
+    float: left;
+    background: white;
+    text-align: center;
+}
+.mid .mid-left .mid-infrastructure .pic img{
+     margin-top: 5px;
+     width: 90%;
+     text-align: center;
+}
+.mid .mid-left  .mid-infrastructure p{
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+/* End Discription */
+
+/* Start Mid Right principle Message */
+
+.mid .mid-right .principle-message{
+    margin-right: 15%;
+    margin-top: 25px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+}
+.mid .principle-message h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .principle-message .picture{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+}
+.mid .principle-message .picture img{
+    width: 100%;
+}
+.mid .principle-message .link{
+    width: 78%;
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    padding: 5px;
+}
+.mid .principle-message .link a{
+    text-decoration: none;
+     font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 3px;
+}
+.mid .principle-message .link .link-1{
+    font-family: italic;
+    color:blue;
+}
+.mid .principle-message .link .link-1:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+/* End Mid Right principle Message */
+
+/* Start Related Link */
+
+
+/* Start header Link */
+.mid .related-link .head-link h2{
+ margin-right: 15%;
+    margin-top: 45px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;
+}
+/* End header Link */
+
+/* Start at a glance-link */
+.mid .related-link .At-A-glance-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .At-A-glance-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .At-A-glance-link a:active,
+.mid .related-link .At-A-glance-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+}
+/* End at a glance-link */
+
+/* Start history */
+.mid .related-link .history-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .history-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .history-link a:active,
+.mid .related-link .history-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+     font-size: 20px;
+}
+/* End history */
+
+/* Start why study at ara-link */
+.mid .related-link .why-study-at-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .why-study-at-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .why-study-at-link a:active,
+.mid .related-link .why-study-at-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+     font-size: 20px;
+}
+/* End why study at ara-link */
+
+/* Start Contact-link */
+.mid .related-link .Contact-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .Contact-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .Contact-link a:active,
+.mid .related-link .Contact-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+     font-size: 20px;
+}
+/* End Contact-link */
+
+/* Start home-link */
+.mid .related-link .home-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .home-link a{
+    margin-right: 15%;
+    margin-top: 20px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .home-link a:active,
+.mid .related-link .home-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+     font-size: 20px;
+}
+/* End home-link */
+
+/* Start login-link */
+.mid .related-link .login-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .login-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .login-link a:active,
+.mid .related-link .login-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+     font-size: 20px;
+}
+/* End login-link */
+
+/* Ens Related Link */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

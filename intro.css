@@ -564,9 +564,6 @@ footer{
     padding-bottom: 30px;
     overflow: hidden; 
 }
-footer:hover{
-    border: 2px solid aqua;
-}
 footer .quick-links{
     margin-left: 5%;
     float: left;
