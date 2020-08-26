@@ -145,35 +145,13 @@ nav ul .hide{
 }
  /* End Latest News */
 
-/* Start Left Slide Show */
-
-.mid .left{
-    margin-left: 10%;
-    margin-top: 10px;
-    width: 90%;
-    float: left;
-    background: white;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 3px;
-}
-.mid .left:hover{
-    border: 1px dashed #00381D;
-}
-.mid .left img{
-    margin-top: 5px;
-    width: 96%;
-    margin-bottom: 5px;
-}
-
-/* End Left Slide Show */
-
 /* Star Mid Left School Introduction */
 
 .mid .left-1{
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 15px;
-    width: 90%;
+    width: 80%;
     float: left;
     background: white;
     text-align: center;
@@ -196,6 +174,132 @@ nav ul .hide{
 }
 
 /* End Mid Left School Introduction */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Left Slide Show */
+
+.mid .left{
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 90%;
+    float: left;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.mid .left:hover{
+    border: 1px dashed #00381D;
+}
+.mid .left .slide-show{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.mid .left .slide-show .xx{
+    display: flex;
+    margin-top: 10px;
+     margin-bottom: 5px;
+}
+.mid .left .slide-show .xx img{   
+    width:100%; 
+}
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 2%;
+    font-size: 25px;
+    color: aliceblue;
+    opacity: 0.6;
+    cursor: pointer;
+    
+}
+#nextBtn{
+     position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 2%;
+    font-size: 25px;
+    color: aliceblue;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+/* End Left Slide Show */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Start Mid Left Achievements */
 

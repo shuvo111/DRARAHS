@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.x{
+    color: blue;
+}
+.image{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.mid .discription-1{
+    width: 49%;
+    float: left;
+    text-align: end;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.mid .discription-2{
+     width: 49%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 1%;
+}
+.mid p{
+padding: 10px;    
+}
