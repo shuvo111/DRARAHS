@@ -1,0 +1,19 @@
+@media screen and (max-width:586){
+    .mid .discription-1{
+    width: 49%;
+    float: left;
+    text-align: end;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.mid .discription-2{
+     width: 49%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.mid p{
+padding: 0px;    
+}
+}

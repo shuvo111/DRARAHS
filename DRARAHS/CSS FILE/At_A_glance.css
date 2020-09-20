@@ -1,0 +1,313 @@
+.mid{
+    background: #ECEFF6;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-left{
+    width: 69%;
+    overflow: hidden;
+    float: left;
+}
+.mid .mid-right{
+    width: 29%;
+    overflow: hidden;
+    float: right;
+}
+
+/* Start Discription */
+
+.mid .mid-left .mid-discription{
+    margin-left: 10%;
+    margin-top: 25px;
+    width: 95%;
+    overflow: hidden;
+    float: left;
+    background: white;
+    text-align: center;
+}
+.mid .mid-left  .mid-discription p{
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+/* End Discription */
+
+/* Start Mid Right Chairman Message */
+
+.mid .mid-right .chairman-message{
+    margin-right: 15%;
+    margin-top: 25px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+}
+.mid .chairman-message h3{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+}
+.mid .chairman-message .picture{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+}
+.mid .chairman-message .picture img{
+    width: 100%;
+}
+.mid .chairman-message .link{
+    width: 78%;
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    padding: 5px;
+}
+.mid .chairman-message .link a{
+    text-decoration: none;
+     font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 3px;
+}
+.mid .chairman-message .link .link-1{
+    font-family: italic;
+    color:blue;
+}
+.mid .chairman-message .link .link-1:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+/* End Mid Right Chairman Message */
+
+/* Start Related Link */
+
+
+/* Start header Link */
+.mid .related-link .head-link h2{
+ margin-right: 15%;
+    margin-top: 45px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;
+}
+/* End header Link */
+
+/* Start History-link */
+.mid .related-link .history-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .history-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .history-link a:active,
+.mid .related-link .history-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+}
+/* End History-link */
+
+/* Start Why Study at ARA */
+.mid .related-link .Why-Study-At-ARA-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .Why-Study-At-ARA-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .Why-Study-At-ARA-link a:active,
+.mid .related-link .Why-Study-At-ARA-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+      font-size: 20px;
+}
+/* End Why Study at ARA */
+
+/* Start Insfrastructure-link */
+.mid .related-link .Insfrastructure-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .Insfrastructure-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .Insfrastructure-link a:active,
+.mid .related-link .Insfrastructure-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+      font-size: 20px;
+}
+/* End Insfrastructure-link */
+
+/* Start Contact-link */
+.mid .related-link .Contact-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .Contact-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .Contact-link a:active,
+.mid .related-link .Contact-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+      font-size: 20px;
+}
+/* End Contact-link */
+
+/* Start home-link */
+.mid .related-link .home-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .home-link a{
+    margin-right: 15%;
+    margin-top: 20px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .home-link a:active,
+.mid .related-link .home-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+      font-size: 20px;
+}
+/* End home-link */
+
+/* Start History-link */
+.mid .related-link .login-link i{
+    padding: 0 7px 0 0;
+    font-size: 20px;
+    color: black;
+}
+.mid .related-link .login-link a{
+    margin-right: 15%;
+    margin-top: 5px;
+    width: 85%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 3px;
+    overflow: hidden; 
+    padding: 10px 0 10px 0;  
+    color: black;
+}
+
+.mid .related-link .login-link a:active,
+.mid .related-link .login-link a:hover{
+     border: 1px solid black;
+    text-decoration: underline;
+    color: blue;
+      font-size: 20px;
+}
+/* End History-link */
+
+/* Ens Related Link */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
